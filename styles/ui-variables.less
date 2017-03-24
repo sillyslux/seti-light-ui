@@ -8,11 +8,11 @@
 @import "user-theme"; // OVERRIDE DEFAULT COLORS WITH USER THEME
 
 // BASE COLORS
-@black: #d4d7d6;
-@black-dark: #090b0d;
+@black: #fff;
+@black-dark: #d4d7d6;
 @white: #0e1112;
 @grey: #4d5a5e;
-@grey-dark: #1f2326;
+@grey-dark: #b1c7d9;
 @grey-light: #6d8086;
 
 // THEME COLORS
@@ -57,10 +57,11 @@
 @app-background-color: @black;
 
 // SIDEBAR
-@tree-view-background-color: lighten(@black, 3%);
+@tree-view-background-color: darken(@black, 3%);
 @tree-view-border-color: @base-border-color;
-@tree-view-highlight: lighten(@black, 10%);
+@tree-view-highlight: darken(@black, 10%);
 @tree-view-header-color: #090b0d;
+@tree-view-header-color: #d4d7d6;
 @tree-view-header-text-color: @white;
 @tree-view-text-color: @white;
 
@@ -69,9 +70,9 @@
 @top-bar-small: 40px;
 @tab-bar-background-color: lighten(@black, 3%);
 @tab-bar-border-color: @base-border-color;
-@tab-background-color: @grey-dark;
-@tab-text-color: #d4d7d6;
-@tab-background-color-active: #111213;
+@tab-background-color: @black-dark;
+@tab-text-color: @white;
+@tab-background-color-active: #fff;
 @tab-border-color: @base-border-color;
 @tab-height: @top-bar;
 
@@ -102,7 +103,7 @@
 
 // Text colors
 @text-color: @white;
-@text-color-subtle: #aaaaaa;
+@text-color-subtle: #545454;
 @text-color-highlight: @white;
 @text-color-selected: @seti-primary;
 @text-color-info: @seti-primary;
