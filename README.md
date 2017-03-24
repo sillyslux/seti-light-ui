@@ -4,13 +4,13 @@
 [![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-light-ui.svg?style=flat-square)](https://gratipay.com/Atom-seti-light-ui/)
 
 
-This is the latest version of the Seti UI theme. It's a dark interface theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes. It includes custom file icons, and new user configurable settings. [Seti Syntax](https://atom.io/themes/seti-syntax) is also available for all your codez.
+This is the latest version of the Seti UI theme. It's a dark interface theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes. It includes custom file icons, and new user configurable settings. [Seti Syntax](https://atom.io/themes/seti-light-syntax) is also available for all your codez.
 
 -----
 
 ##### **Please Note:** This is the Seti interface theme for [Atom](http://atom.io) only
 
-This is for the _interface_ of the Atom editor. I also have [Seti Syntax](https://atom.io/themes/seti-syntax) for theming the _code view_ in Atom. In addition, there is a new [Seti theme](https://www.npmjs.com/package/seti-hyper) for [Hyper](https://hyper.is/).
+This is for the _interface_ of the Atom editor. I also have [Seti Syntax](https://atom.io/themes/seti-light-syntax) for theming the _code view_ in Atom. In addition, there is a new [Seti theme](https://www.npmjs.com/package/seti-hyper) for [Hyper](https://hyper.is/).
 
 If these are not the droids you're looking for, may I point you in the direction of these great ports:
 
@@ -162,6 +162,6 @@ Once everything is setup, follow these steps any time you want to add a new icon
 ## Custom App Icons
 If you'd like a new app icon to match the look & feel of Seti, feel free to use one of these:
 
-[ ![Screenshot](https://github.com/jesseweed/seti-syntax/raw/master/_icons/circular/circular-128x128.png) ](https://github.com/jesseweed/seti-syntax/tree/master/_icons/circular)
-[ ![Screenshot](https://github.com/jesseweed/seti-syntax/raw/master/_icons/rounded/rounded-128x128.png) ](https://github.com/jesseweed/seti-syntax/tree/master/_icons/rounded/)
-[ ![Screenshot](https://github.com/jesseweed/seti-syntax/raw/master/_icons/squared/squared-128x128.png) ](https://github.com/jesseweed/seti-syntax/tree/master/_icons/squared/)
+[ ![Screenshot](https://github.com/jesseweed/seti-light-syntax/raw/master/_icons/circular/circular-128x128.png) ](https://github.com/jesseweed/seti-light-syntax/tree/master/_icons/circular)
+[ ![Screenshot](https://github.com/jesseweed/seti-light-syntax/raw/master/_icons/rounded/rounded-128x128.png) ](https://github.com/jesseweed/seti-light-syntax/tree/master/_icons/rounded/)
+[ ![Screenshot](https://github.com/jesseweed/seti-light-syntax/raw/master/_icons/squared/squared-128x128.png) ](https://github.com/jesseweed/seti-light-syntax/tree/master/_icons/squared/)
