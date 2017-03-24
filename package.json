@@ -5,7 +5,7 @@
   "description": "A dark colored UI theme for Atom with custom file icons.",
   "main": "lib/main",
   "license": "MIT",
-  "repository": "https://github.com/jesseweed/seti-ui",
+  "repository": "https://github.com/jesseweed/seti-light-ui",
   "engines": {
     "atom": ">1.13.0"
   },
@@ -79,5 +79,10 @@
     "gulp-iconfont": "8.0.1",
     "gulp-iconfont-css": "^2.1.0",
     "gulp-svgmin": "^1.2.3"
+  },
+  "apmInstallSource": {
+    "type": "git",
+    "source": "sillyslux/seti-light-ui",
+    "sha": "5b2a03e4ca13e86d038fbab04961378633ee0fe0"
   }
 }

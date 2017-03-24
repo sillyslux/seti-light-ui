@@ -1,7 +1,7 @@
 # Seti UI
 
-[![Gitter](https://img.shields.io/gitter/room/jesseweed/seti-ui.svg?style=flat-square)](https://gitter.im/jesseweed/seti-ui) [![apm](https://img.shields.io/apm/dm/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui) [![apm](https://img.shields.io/apm/v/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui) [![apm](https://img.shields.io/apm/l/seti-ui.svg?style=flat-square)](https://atom.io/themes/seti-ui)
-[![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-ui.svg?style=flat-square)](https://gratipay.com/Atom-Seti-UI/)
+[![Gitter](https://img.shields.io/gitter/room/jesseweed/seti-light-ui.svg?style=flat-square)](https://gitter.im/jesseweed/seti-light-ui) [![apm](https://img.shields.io/apm/dm/seti-light-ui.svg?style=flat-square)](https://atom.io/themes/seti-light-ui) [![apm](https://img.shields.io/apm/v/seti-light-ui.svg?style=flat-square)](https://atom.io/themes/seti-light-ui) [![apm](https://img.shields.io/apm/l/seti-light-ui.svg?style=flat-square)](https://atom.io/themes/seti-light-ui)
+[![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-light-ui.svg?style=flat-square)](https://gratipay.com/Atom-seti-light-ui/)
 
 
 This is the latest version of the Seti UI theme. It's a dark interface theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes. It includes custom file icons, and new user configurable settings. [Seti Syntax](https://atom.io/themes/seti-syntax) is also available for all your codez.
@@ -25,20 +25,20 @@ If these are not the droids you're looking for, may I point you in the direction
 ## What's New? 1.0 Update
 Seti UI has been updated with a cleaner, more streamlined interface, a slightly tweaked color scheme, additional icons and new user settings, as well as a handful of other small ui improvements and a refactored code base.
 
-![Screenshot](https://github.com/jesseweed/seti-ui/raw/master/screenshot.png)
+![Screenshot](https://github.com/jesseweed/seti-light-ui/raw/master/screenshot.png)
 
 -----
 
 ### More colors
 Seti now has 8 theme colors to choose from:
-![Screenshot](https://github.com/jesseweed/seti-ui/raw/master/screenshot-colors.png)
+![Screenshot](https://github.com/jesseweed/seti-light-ui/raw/master/screenshot-colors.png)
 
 -----
 
 ### More icons
 File icons will now show up in the file search (`cmd+ p`) dialog in addition to the side bar and tabs. This should make for easier grokking when you're searching for a file.
 
-![Screenshot](https://github.com/jesseweed/seti-ui/raw/master/screenshot-search.png)
+![Screenshot](https://github.com/jesseweed/seti-light-ui/raw/master/screenshot-search.png)
 
 -----
 
@@ -52,7 +52,7 @@ With 1.0 you can now adjust some of the more commonly requested features directl
 + **Ignored Files:** By default, ignored files are shown as a muted grey. However, if you'd like to hide them altogether you can use this.
 + **Hide Tabs:** Lastly (for now), there have been a few requests to be able to hide tabs altogether. This is of course disabled by default, but if you're the anti-tab type, you can hide them here.
 
-![Screenshot](https://github.com/jesseweed/seti-ui/raw/master/screenshot-settings.png)
+![Screenshot](https://github.com/jesseweed/seti-light-ui/raw/master/screenshot-settings.png)
 
 Setting are brand new, and still have a few kinks to be worked out. If you run into any problems with them, or would like to request an additional setting, please file an issue!
 
@@ -60,7 +60,7 @@ Setting are brand new, and still have a few kinks to be worked out. If you run i
 -----
 
 ## Bugs
-If you find a bug, please do [add a bug](https://github.com/jesseweed/seti-ui/issues). However, first make sure it is for Seti UI in Atom. I only support the Atom versions, please check the links above to report a bug on another platform.
+If you find a bug, please do [add a bug](https://github.com/jesseweed/seti-light-ui/issues). However, first make sure it is for Seti UI in Atom. I only support the Atom versions, please check the links above to report a bug on another platform.
 
 ##### Seti 1.0 has been optimized to work with Atom 1.6 and above:
 ###### Including the 1.7 beta
@@ -79,7 +79,7 @@ The easiest way to install Seti is to do as follows:
 Alternatively you can use the [Atom Package Manager](https://github.com/atom/apm):
 
 ```bash
-apm install seti-ui
+apm install seti-light-ui
 ```
 
 
@@ -89,9 +89,9 @@ apm install seti-ui
 Anyone is welcome to contribute to the development of this theme. If can be a lot of work to keep up on, and I'll take help wherever I can get it :)
 
 ### 1. Fork
-If you're keen to contribute, start by [forking](https://github.com/jesseweed/seti-ui/tree/1.0-beta#fork-destination-box) the repo and cloning it to your computer.
+If you're keen to contribute, start by [forking](https://github.com/jesseweed/seti-light-ui/tree/1.0-beta#fork-destination-box) the repo and cloning it to your computer.
 
-**Note:** To use the development version, you must first uninstall the production version (`apm uninstall seti-ui`), then run the following commands:
+**Note:** To use the development version, you must first uninstall the production version (`apm uninstall seti-light-ui`), then run the following commands:
 
 ```bash
 # To install the local version as an Atom Theme
@@ -111,7 +111,7 @@ Once you are satisfied, with your updates, commit your change, push them to your
 
 ### 4. Unlink
 
-Once you're done working locally and ready to install the production version again, simply run `apm unlink .` from the root of the seti-ui project.
+Once you're done working locally and ready to install the production version again, simply run `apm unlink .` from the root of the seti-light-ui project.
 
 
 -----
@@ -119,13 +119,13 @@ Once you're done working locally and ready to install the production version aga
 ## Adding File Icons
 The process of adding file icons is still a bit complex, but it _has_ been greatly simplified in 1.0. It does however require that you have [node](https://nodejs.org/en/) and [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) installed.
 
-Once you have these, you will need to open a terminal window, navigate to the _seti-ui_ folder and run `npm install` (note you only need to do this once).
+Once you have these, you will need to open a terminal window, navigate to the _seti-light-ui_ folder and run `npm install` (note you only need to do this once).
 
 Once everything is setup, follow these steps any time you want to add a new icon:
 
   1. Create an SVG icon with the name of the language, and save it to the `icons` folder _(do not use any spaces or special characters)_
 
-  2. Navigate to the _seti-ui_ folder in your terminal and run `gulp font` (this will add the new svg file to our icon font, update our file as well as the less file with the mixins we'll need to link to the icon later.)
+  2. Navigate to the _seti-light-ui_ folder in your terminal and run `gulp font` (this will add the new svg file to our icon font, update our file as well as the less file with the mixins we'll need to link to the icon later.)
 
   3. Lastly, open [styles/icons/mapping.less](styles/icons/mapping.less) and create a link for the icon you just added with the `.icon-set` mixin. Assuming you were adding an icon for Sass it might look something like this: ```.icon-set('.scss', 'sass', @pink)```
 
@@ -155,7 +155,7 @@ Once everything is setup, follow these steps any time you want to add a new icon
 -----
 
 ## Current Icons
-![Screenshot](https://github.com/jesseweed/seti-ui/raw/master/screenshot-icons.png)
+![Screenshot](https://github.com/jesseweed/seti-light-ui/raw/master/screenshot-icons.png)
 
 -----
 
